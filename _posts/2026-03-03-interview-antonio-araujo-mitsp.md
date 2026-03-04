@@ -4,7 +4,7 @@ date: 2026-03-03
 author: "Teresa"
 category: interview
 tags: [MITsp, Antonio Araujo, interview, festival direction, Brazilian theater, Teatro da Vertigem]
-featured_image: https://upload.wikimedia.org/wikipedia/commons/2/2e/2-Theatro-Municipal.jpg
+featured_image: https://upload.wikimedia.org/wikipedia/commons/1/19/Interior_Teatro_Municipal_de_S%C3%A3o_Paulo.jpg
 excerpt: "On the eve of MITsp's eleventh edition, Teresa speaks with the festival's artistic director about a decade of programming from the Global South, the politics of curatorship, and why São Paulo is the right city for this kind of festival."
 ---
 
@@ -20,7 +20,7 @@ The void was never going to be filled in the way I imagined in 2014. What we dis
 
 Not explicitly, no. In the first two or three editions, we were programming eclectically, trying to understand what MITsp actually was and what it could be. The shift toward a more deliberate focus on the Global South happened gradually, as we became more aware of the structural problem we were responding to. The international touring circuit — the network of major festivals that determines what gets seen and what gets prestige — is built on a set of assumptions about where serious theater comes from. Those assumptions are changing, but slowly. When we made the 2024 edition with a focus on Africa, Asia, Latin America, and the Middle East, we weren't making a conceptual statement. We were responding to where the most exciting work was actually happening.
 
-![The Theatro Municipal de São Paulo, an emblem of the city's long history of cultural ambition and contradiction](https://upload.wikimedia.org/wikipedia/commons/2/2e/2-Theatro-Municipal.jpg)
+![The ornate interior of the Theatro Municipal, built in 1911 and site of the 1922 Week of Modern Art that transformed Brazilian culture](https://upload.wikimedia.org/wikipedia/commons/1/19/Interior_Teatro_Municipal_de_S%C3%A3o_Paulo.jpg)
 
 **MITbr, the platform for Brazilian work within MITsp, seems designed to address the other side of that problem — getting Brazilian work out into the world rather than just bringing the world in.**
 
@@ -30,7 +30,7 @@ Yes, and it has worked better than I dared hope. The basic idea was simple: if y
 
 It's a complicated building. It was built in 1911 as a monument to a certain idea of Brazilian cultural aspiration — a beaux-arts opera house that made a point about São Paulo's European ambitions. The famous Week of Modern Art happened here in 1922, which was the moment when Brazilian modernism declared its independence from exactly those European models. So the building has this double history: of imitation and then of radical departure from imitation. When we use the Cúpula space inside the Municipal for chamber performances — as we did with Guillermo Cacace's *Seagull* in 2025 — there's always a resonance with that history. A work that reimagines Chekhov through five Argentine actresses around a table, in a space that was built to stage European opera in São Paulo: the irony is productive.
 
-![The ornate interior of the Theatro Municipal, built in 1911 and site of the 1922 Week of Modern Art that transformed Brazilian culture](https://upload.wikimedia.org/wikipedia/commons/1/19/Interior_Teatro_Municipal_de_S%C3%A3o_Paulo.jpg)
+![The Theatro Municipal de São Paulo, an emblem of the city's long history of cultural ambition and contradiction](https://upload.wikimedia.org/wikipedia/commons/2/2e/2-Theatro-Municipal.jpg)
 
 **Looking at eleven editions, what has surprised you most?**
 
