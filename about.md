@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-About this blog.
+Here you can write all about your website and blog. And about yourself, if you like.
