@@ -1,6 +1,10 @@
 <article class="post-card">
   {% if include.post.featured_image %}
-    <img src="{{ include.post.featured_image | relative_url }}" alt="{{ include.post.title }}">
+    {% if include.post.featured_image contains "://" %}
+      <img src="{{ include.post.featured_image }}" alt="{{ include.post.title }}">
+    {% else %}
+      <img src="{{ include.post.featured_image | relative_url }}" alt="{{ include.post.title }}">
+    {% endif %}
   {% endif %}
   <div class="post-meta">
     <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%B %-d, %Y" }}</time>

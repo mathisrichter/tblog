@@ -1,4 +1,85 @@
 /* ===========================
+   Auth gate (temporary)
+   =========================== */
+
+#auth-gate {
+  position: fixed;
+  inset: 0;
+  background: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+#auth-box {
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 22rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+#auth-box h2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+#auth-box p {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+#auth-box input {
+  width: 100%;
+  padding: 0.625rem 0.75rem;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+#auth-box button {
+  padding: 0.625rem;
+  background: #1a1a1a;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+#auth-box button:hover {
+  background: #333;
+}
+
+#auth-error {
+  display: none;
+  color: #c00;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+/* ===========================
+   Placeholder notice (temporary)
+   =========================== */
+
+.placeholder-notice {
+  background: #fff8e1;
+  border-bottom: 2px solid #f59e0b;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  color: #78350f;
+  text-align: center;
+}
+
+/* ===========================
    Reset & base
    =========================== */
 

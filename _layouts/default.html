@@ -4,11 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if page.title and page.title != "Home" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="robots" content="noindex, nofollow">
   {% seo %}
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 </head>
 <body>
+
+  <div id="auth-gate">
+    <div id="auth-box">
+      <h2>Access restricted</h2>
+      <p>This site is currently private.</p>
+      <input type="text" id="auth-user" placeholder="Username" autocomplete="username">
+      <input type="password" id="auth-pass" placeholder="Password" autocomplete="current-password">
+      <button onclick="checkAuth()">Enter</button>
+      <p id="auth-error">Incorrect credentials.</p>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      if (sessionStorage.getItem('tblog-auth') === 'ok') {
+        document.getElementById('auth-gate').style.display = 'none';
+      }
+    })();
+    function checkAuth() {
+      var u = document.getElementById('auth-user').value;
+      var p = document.getElementById('auth-pass').value;
+      if (u === 'tb' && p === 'mitsp@2026') {
+        sessionStorage.setItem('tblog-auth', 'ok');
+        document.getElementById('auth-gate').style.display = 'none';
+      } else {
+        document.getElementById('auth-error').style.display = 'block';
+      }
+    }
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById('auth-pass').addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') checkAuth();
+      });
+      document.getElementById('auth-user').addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') document.getElementById('auth-pass').focus();
+      });
+    });
+  </script>
+
   {% include header.html %}
   <main>
     {{ content }}
