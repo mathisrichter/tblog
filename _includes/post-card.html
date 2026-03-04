@@ -1,0 +1,13 @@
+<article class="post-card">
+  {% if include.post.featured_image %}
+    <img src="{{ include.post.featured_image | relative_url }}" alt="{{ include.post.title }}">
+  {% endif %}
+  <div class="post-meta">
+    <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%B %-d, %Y" }}</time>
+    {% if include.post.category %}<span class="category">{{ include.post.category }}</span>{% endif %}
+  </div>
+  <h2><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a></h2>
+  {% if include.post.excerpt %}
+    <p>{{ include.post.excerpt }}</p>
+  {% endif %}
+</article>

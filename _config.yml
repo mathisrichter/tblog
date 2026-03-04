@@ -1,0 +1,33 @@
+title: "Blog Title"          # TODO: update
+description: "Theater reviews, festival reports, and essays about the free international performance scene."  # TODO: update
+url: "https://yourdomain.com"  # TODO: update
+baseurl: ""
+
+# Build
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Exclude from build output
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
