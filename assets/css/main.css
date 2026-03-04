@@ -121,8 +121,9 @@ h1, h2, h3, h4 {
    =========================== */
 
 .site-header {
-  padding: 1.25rem 0;
-  border-bottom: 5px solid #fb9b8f;
+  padding: 1.5rem 0;
+  border-bottom: 15px solid #f57799;
+  background-color: #fb9b8f;
   margin-bottom: 3rem;
 }
 
@@ -147,8 +148,9 @@ h1, h2, h3, h4 {
   font-weight: 700;
   font-size: 1.1625rem;
   text-decoration: none;
-  /*color: #f57799;*/
-  color: #fb9b8f;
+  /*color: #f57799;
+  color: #fb9b8f;*/
+  color: #fff;
   flex: 1;
 }
 
@@ -162,12 +164,15 @@ h1, h2, h3, h4 {
 }
 
 .site-header a {
-  color: #fb9b8f;
+  /*color: #fb9b8f;*/
+  color: #fff;
   text-decoration: none;
 }
 
 .site-header a:hover {
-  color: #1a1a1a;
+  text-decoration: underline;
+  text-decoration-thickness: 0.2em;
+  text-underline-offset: 0.2rem;
 }
 
 /* ===========================
@@ -347,7 +352,7 @@ h1, h2, h3, h4 {
   font-size: 1.25rem;
   font-weight: 700;
   margin: 2.5rem 0 0.75rem;
-  color: #888;
+  color: #222;
 }
 
 .archive-list {
@@ -363,7 +368,7 @@ h1, h2, h3, h4 {
 }
 
 .archive-list time {
-  color: #aaa;
+  color: #f57799;
   font-size: 0.875rem;
   min-width: 3.5rem;
   padding-top: 0.125rem;
