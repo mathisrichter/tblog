@@ -1,7 +1,7 @@
 title: "Exit, pursued by a review" # TODO: update
 description: "Theater reviews, festival reports, and essays about the free international performance scene."  # TODO: update
-url: "https://yourdomain.com"  # TODO: update
-baseurl: ""
+url: "https://mathisrichter.de"  # TODO: update
+baseurl: "/tblog"
 
 # Build
 markdown: kramdown
